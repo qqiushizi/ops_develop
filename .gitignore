@@ -1,0 +1,11 @@
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+kernel_meta/
+outputs/
+dist/
+
+# 运行期解压/生成物，不提交（由对应 tar.gz 生成）
+d.op_agent/a.install_opencode/opencode/
+d.op_agent/b.skill_store/repo/
