@@ -24,6 +24,14 @@ ops_develop/
 ## 快速开始
 
 ```bash
+# 进入工具目录，打开可视化文件夹导航（等价于原来的 itool.sh）
+cd ops_develop
+./opsdevelop.sh
+```
+
+也可以不用可视化界面，直接逐项执行：
+
+```bash
 # ① 配置 OpenCode 的 API
 bash a.llm_api/run.sh
 
