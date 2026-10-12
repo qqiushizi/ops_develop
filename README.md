@@ -16,6 +16,7 @@ ops_develop/
 │   ├── b.skill_store/            离线 Skill 仓库（选装/卸载）
 │   └── c.update_skill/           联网更新 skill 仓库（可选）
 ├── e.install_ascend/         环境组件安装（docker/python/cann/torch/gcc/mamba/triton/tilelang）
+├── f.install_nodejs/         安装 Node.js（nvm，默认 22.22.0 LTS）
 ├── workspace/                统一输出目录（脚本生成物默认归档于此）
 ├── VERSION                   版本号
 └── pack.sh                   打包成可分发 tar.gz
@@ -49,6 +50,9 @@ bash c.env_check/run.sh
 bash d.op_agent/a.install_opencode/run.sh      # 安装 opencode 绿色版
 bash d.op_agent/b.skill_store/run.sh           # 离线选装 Skill
 bash d.op_agent/c.update_skill/run.sh          # 联网更新 skill 仓库（可选）
+
+# 需要 npm 工具时安装 Node.js（默认 22.22.0 LTS）
+bash f.install_nodejs/run.sh
 ```
 
 ## 打包分发
